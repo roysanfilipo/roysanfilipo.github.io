@@ -10,7 +10,7 @@ Below the carousel of RuPaul images, there is a form that includes an input bar 
 
 When the user inputs the number (which needs to be between 0 and 139 - the form input bar only allows for this), a drag queen's information is pulled from the RuPaul's Drag Race API (https://drag-race-api.readme.io/docs) and the drag queen's name, image, and quote are pulled from the API database and appear on the website.
 
-The flaw in the site is that if someone was born in January in the year 2000, they may generate a negative number, which cannot be input into the input form bar. I am still working on a great question that will fix this scenario! 
+The flaw in the site is that if someone was born in January in the year 2000, they will likely generate a negative number, which cannot be submitted with the input form bar. I am still working on a great question that will fix this scenario!
 
 Sources for RuPaul Images:
 Image 1 (VH1): https://www.biography.com/news/how-rupaul-brought-drag-to-mainstream-culture

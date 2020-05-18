@@ -8,7 +8,6 @@ $(() => {
   const numOfImages = $('.carousel-images').children().length -1;
 
   // make the next image button work
-
   $('.next').on('click', () => {
     $('.carousel-images').children().eq(currentImage).css('display', 'none')
     if (currentImage < numOfImages) {
@@ -20,7 +19,6 @@ $(() => {
   })
 
   // make the previous  image button work
-
   $('.previous').on('click', () => {
       $('.carousel-images').children().eq(currentImage).css('display', 'none')
       if(currentImage > 0) {
