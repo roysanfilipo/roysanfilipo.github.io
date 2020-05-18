@@ -49,7 +49,7 @@ $('form').on('submit', (event) => {
 // pulling from the Rupaul's dragrace API link
     $.ajax(
       {
-        url:'http://www.nokeynoshade.party/api/queens/all'
+        url:'https://www.nokeynoshade.party/api/queens/all'
       }
 
 // pulling a drag queen's name, image, and quote from the Rupaul API when a user subits the
