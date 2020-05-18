@@ -7,7 +7,7 @@ $(() => {
 
   const numOfImages = $('.carousel-images').children().length -1;
 
-  // make the next button work
+  // make the next image button work
 
   $('.next').on('click', () => {
     $('.carousel-images').children().eq(currentImage).css('display', 'none')
@@ -19,7 +19,7 @@ $(() => {
     $('.carousel-images').children().eq(currentImage).css('display', 'block')
   })
 
-  // make the previous button work
+  // make the previous  image button work
 
   $('.previous').on('click', () => {
       $('.carousel-images').children().eq(currentImage).css('display', 'none')
@@ -30,9 +30,6 @@ $(() => {
       }
       $('.carousel-images').children().eq(currentImage).css('display', 'block')
     })
-
-
-
 
   // Generating dragqueen based on inputting a number  between 0 and 139
 

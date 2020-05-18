@@ -1,4 +1,4 @@
-/* General CSS */
+/* Main CSS for mobile devices */
 body {
   background: #d31aea;
 }
@@ -113,7 +113,7 @@ dl img {
 }
 
 /* CSS for Desktop or larger than mobile */
-@media (min-width: 600px) {
+@media (min-width: 650px) {
  h1 {
    font-size: 60px;
  }
