@@ -1,4 +1,10 @@
 $(() => {
+
+  // Rupaul carousel images and buttons
+
+  
+
+  // Generating dragqueen based on inputting a number  between 0 and 139
 $('form').on('submit', (event) => {
 
     event.preventDefault();
