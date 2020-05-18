@@ -87,6 +87,8 @@ input {
   align-self: center;
 }
 
+/* Rupaul API CSS  */
+
 dl, dt, dd {
   display: block;
   justify-content: center;
@@ -110,6 +112,32 @@ dl img {
   width: 100%;
 }
 
-
-
-/* Rupaul API CSS  */
+/* CSS for Desktop or larger than mobile */
+@media (min-width: 600px) {
+ h1 {
+   font-size: 60px;
+ }
+ .carousel-images {
+   width: 40%;
+ }
+ .carousel-button img {
+   width: 20%;
+ }
+ .textbox {
+   font-size: 20px;
+ }
+ .click {
+   font-size: 40px;
+   color: #ffb90f;
+   width: 30%;
+ }
+ dt {
+   font-size: 45px;
+ }
+ dd {
+   font-size: 35px;
+ }
+ dl img {
+   width: 75%;
+ }
+}
