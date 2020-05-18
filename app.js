@@ -31,6 +31,8 @@ $(() => {
 
   // Generating dragqueen based on inputting a number  between 0 and 139
 
+
+
   // when you click submit on the form
 $('form').on('submit', (event) => {
 
@@ -38,8 +40,8 @@ $('form').on('submit', (event) => {
     event.preventDefault();
 
 // declaring userInput and setting it to a numerical value
+    $('.output').css('display', 'block');
     const userInput = $('input[type="number"]').val();
-
 
 // pulling from the Rupaul's dragrace API link
     $.ajax(
@@ -48,7 +50,7 @@ $('form').on('submit', (event) => {
       }
 
 // pulling a drag queen's name, image, and quote from the Rupaul API when a user subits the
-// index number in the array of dragqueen objects
+// index number in the array of dragqueen object
 
     ).then(
         (data) => {

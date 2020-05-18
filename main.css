@@ -89,8 +89,11 @@ input {
 
 /* Rupaul API CSS  */
 
+.output {
+  display: none;
+}
+
 dl, dt, dd {
-  display: block;
   justify-content: center;
   text-align: center;
   padding: 10px;
