@@ -113,7 +113,7 @@ dl img {
 }
 
 /* CSS for Desktop or larger than mobile */
-@media (min-width: 735px) {
+@media (min-width: 1125px) {
  h1 {
    font-size: 60px;
  }
