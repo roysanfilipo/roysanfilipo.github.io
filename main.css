@@ -3,7 +3,7 @@ body {
   background: #d31aea;
 }
 h1 {
-  text-align: justify; 
+  text-align: justify;
 }
 
 .container {
@@ -20,7 +20,7 @@ h1 {
 }
 
 input {
-  width: 400px;
+  width: 500px;
 }
 
 .carousel-images {
@@ -32,13 +32,14 @@ input {
 
 .carousel-images img {
   display: none;
+  border-radius: 20px;
 }
 
 .carousel-images img:first-of-type {
   display: block;
 }
 
-.carousel-button {
+.carousel-button img {
   border-radius: 50px;
   align-self: center;
   padding: 10px;
