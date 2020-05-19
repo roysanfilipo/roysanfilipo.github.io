@@ -6,7 +6,7 @@ body {
 h1 {
   text-align: center;
   font-family: 'Pacifico', cursive;
-  font-size: 50px;
+  font-size: 55px;
   color: #ffb90f;
 }
 
@@ -66,12 +66,14 @@ h1 {
 
 h2 {
   font-family: 'Righteous', cursive;
+  font-size: 40px;
   color: #ffb90f;
 }
 
 ul {
   list-style: none;
   font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
 }
 
 dl, dt, dd {
@@ -129,7 +131,7 @@ dd {
 }
 
 dl img {
-  width: 100%;
+  width: 70%;
 }
 
 /* CSS for Desktop or larger than mobile */
@@ -144,12 +146,18 @@ dl img {
    width: 20%;
  }
  .textbox {
-   font-size: 20px;
+   font-size: 25px;
  }
  .click {
-   font-size: 40px;
+   font-size: 35px;
    color: #ffb90f;
    width: 30%;
+ }
+ h2 {
+   font-size: 20px;
+ }
+ ul {
+   font-size: 15px;
  }
  dt {
    font-size: 45px;
@@ -158,6 +166,6 @@ dl img {
    font-size: 35px;
  }
  dl img {
-   width: 75%;
+   width: 50%;
  }
 }
