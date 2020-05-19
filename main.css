@@ -29,7 +29,7 @@ h1 {
 }
 
 .carousel-images {
-  width: 90%;
+  width: 50%;
   border: 4px solid hotpink;
   border-radius: 20px;
   padding: 10px;
@@ -138,7 +138,7 @@ dl img {
    font-size: 60px;
  }
  .carousel-images {
-   width: 40%;
+   width: 35%;
  }
  .carousel-button img {
    width: 20%;
