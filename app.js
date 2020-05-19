@@ -43,7 +43,7 @@ $('form').on('submit', (event) => {
     $('.output').css('display', 'block');
     const userInput = $('input[type="number"]').val();
 
-    // tried to just make whatever they input a random value between 0 and 139... 
+    // tried to just make whatever they input a random value between 0 and 139...
     // const userInput = $(Math.floor(Math.random() * 139)).val()
 
 // pulling from the Rupaul's dragrace API link
@@ -62,8 +62,8 @@ $('form').on('submit', (event) => {
           $('#name').html(data[userInput].name);
           $('#image').attr('src', data[userInput].image_url);
 
-          if ((data[userInput].quote) === "") {
-            $('quote').text('I have nothing to say to you...');
+          if ((data[userInput].quote) === "\"\"") {
+            $('#quote').text("I have nothing to say to you...");
           } else {
             $('#quote').html(data[userInput].quote);
           }
