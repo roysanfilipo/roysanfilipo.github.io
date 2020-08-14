@@ -31,8 +31,6 @@ $(() => {
 
   // Generating dragqueen based on inputting a number  between 0 and 139
 
-
-
   // when you click submit on the form
 $('form').on('submit', (event) => {
 
